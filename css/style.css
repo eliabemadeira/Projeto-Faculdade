@@ -1,0 +1,100 @@
+:root{
+    --font-principal:"Poppins";
+    --font-secundaria:"Josefin Sans";
+    --laranja: #EB9B00;
+    --azul: #002F52;
+}
+body{
+    background-color: var(--azul);
+    font-family: var(--font-principal);
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.nome-principal{
+    text-align: center;
+    background-color: var(--laranja);
+    padding: 1.5em ;
+    font-size:30px;
+    font-weight:500;
+    margin-bottom: 3em;
+}
+.titulo-secundario{
+    text-align: center;
+    font-size: 25px;
+    margin: 2.5em;
+    
+}
+.img-equipe{
+    justify-content: center;
+    text-align: center;
+    padding: 1.5em 0 ;
+    margin-bottom:2.5em;
+}
+.items-img {
+    display: inline-block;
+    margin-left: 1.5em;
+
+}
+.fig-equipe
+{
+    width:300px ;
+    height: 200px;
+    border-radius: 10px;
+}
+.img-descricao{
+    margin:10px 0 ;
+}
+.margem{
+    
+    margin-top: 4em;
+}
+
+.imagens{
+    padding: 1.5em 0;
+    justify-content: center;
+    text-align: center; 
+}
+.figuras{
+    width:400px ;
+    height: 300px;
+    margin-left: 1.5em;
+    border-radius: 10px;
+}
+
+.descricao{
+    padding:20px;
+    text-align:center;
+    justify-content: center;
+    margin-bottom:3em;
+}
+.texto-desc{
+    margin:10px 0  0 ;
+}
+
+.rodape{
+    
+margin-bottom: 4em;
+}
+.forms{
+    padding: 1em ;
+    margin: auto;
+    width: 30%;
+    border: 2.5px solid white;
+    border-radius: 0.75em;
+    background-color: transparent;
+   
+}
+
+
+.item-rodape{
+	display:block;
+	width: 100%;
+	padding-bottom: 0.5em;
+}
+.input-padrao{
+    width: 95%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
+}
